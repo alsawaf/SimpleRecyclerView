@@ -13,7 +13,7 @@ import java.util.ArrayList;
  * Created by win8 on 4/9/2018.
  */
 
-public class CustomAdapter extends RecyclerView.Adapter {
+public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHolder> {
 
     ArrayList<String> CustomAdapterArrayList;
     Context context;
@@ -36,10 +36,7 @@ public class CustomAdapter extends RecyclerView.Adapter {
 
     }
 
-    @Override
-    public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
 
-    }
 
 
 
